@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'latobold';
+  src: url("../fonts/lato/lato-bol-webfont.eot");
+  src: url("../fonts/lato/lato-bol-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/lato-bol-webfont.woff") format("woff"), url("../fonts/lato/lato-bol-webfont.ttf") format("truetype"), url("../fonts/lato/lato-bol-webfont.svg#latobold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'latolight';
+  src: url("../fonts/lato/lato-lig-webfont.eot");
+  src: url("../fonts/lato/lato-lig-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/lato-lig-webfont.woff") format("woff"), url("../fonts/lato/lato-lig-webfont.ttf") format("truetype"), url("../fonts/lato/lato-lig-webfont.svg#latolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'latoregular';
+  src: url("../fonts/lato/lato-reg-webfont.eot");
+  src: url("../fonts/lato/lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/lato-reg-webfont.woff") format("woff"), url("../fonts/lato/lato-reg-webfont.ttf") format("truetype"), url("../fonts/lato/lato-reg-webfont.svg#latoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'latolight', Helvetica Neue; }
+
+a {
+  cursor: pointer; }
+
+h1 small {
+  font-size: 50%; }
+
+h2.orange {
+  color: #FF4500; }
+
+.branding {
+  height: 90px;
+  display: block;
+  margin: 20px 0; }
+  .branding a.logo {
+    float: left;
+    display: inline-block;
+    margin-right: 25px; }
+    .branding a.logo img {
+      max-height: 90px; }
+  .branding .title {
+    display: block;
+    float: left;
+    padding: 15px 0; }
+    .branding .title h1 {
+      margin: 0; }
+
+header.contact {
+  min-height: 44px;
+  background-color: #f1f1f1;
+  line-height: 44px;
+  color: #777; }
+  header.contact a {
+    color: #777; }
+
+/** MENU STYLES **/
+.contact-menu {
+  margin-left: 0;
+  margin-bottom: 0; }
+  .contact-menu.right {
+    float: right; }
+  .contact-menu li {
+    float: left;
+    position: relative;
+    display: block;
+    margin-left: 20px; }
+
+.header-menu {
+  margin-top: 15px; }
+
+/** BOOTSTRAP STYLES **/
+.nav-pills > li {
+  margin-right: 1%; }
+  .nav-pills > li > a {
+    border-radius: 0; }
+.nav-pills > li.current_page_item > a {
+  color: white;
+  background-color: #428bca; }
+
+.side-panel {
+  background-color: #1ca7e0;
+  color: #fff;
+  padding: 30px 0; }
+  .side-panel p a {
+    color: inherit; }
+
+.main {
+  background-image: url(../img/Carolina_Theatre_at_night.jpg);
+  background-size: cover;
+  background-position-y: center;
+  padding: 0;
+  height: 437px; }
+  .main a.logo {
+    position: absolute;
+    z-index: 10;
+    left: 30px;
+    top: 30px; }
+  .main .tint {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: #FF4500;
+    /*can be anything, of course*/
+    opacity: 0.5; }
+  .main span.date {
+    font-weight: 200;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    right: 30px;
+    top: 30px;
+    text-align: right; }
+  .main p.message {
+    color: #777;
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 260px;
+    padding: 0 15px;
+    width: 100%; }
+
+p.large {
+  font-size: 20px; }
+
+.price-box {
+  position: relative; }
+  .price-box .dollar-sign {
+    font-size: 60px;
+    margin-left: -15px;
+    vertical-align: text-bottom; }
+  .price-box .price {
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: -8px; }
+
+.border-white {
+  background-color: transparent;
+  border-width: 3px;
+  border-color: #fff;
+  color: #fff; }
+
+.thumb {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 200px;
+  display: block;
+  background-position-x: center;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 20px; }
+  .thumb img {
+    max-width: 100%; }
+  .thumb.large {
+    width: 300px;
+    height: 300px; }
+
+.container-fluid.odd {
+  background-color: #f1f1f1; }
+
+@media (min-width: 992px) {
+  	/*
+  	.main {
+  
+  		.row {
+  		    display: table;
+  
+  		    [class*="col-"] {
+  			    float: none;
+  			    display: table-cell;
+  			    vertical-align: top;
+  			}
+  
+  		}
+  
+  	}*/ }
