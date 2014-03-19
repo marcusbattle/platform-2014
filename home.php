@@ -53,7 +53,7 @@
                      <img src="<?php echo get_template_directory_uri() . '/assets/img/headshots/rsz_tim.jpg' ?>">
                   </div>
                   <div class="text-center">
-                     <h3>Tim Shrop Comedy</h3>
+                     <h3>Comedian Tim Shropshire</h3>
                      <h4>Special Guest Host</h4>
                   </div>
                   <p>&nbsp;</p>
