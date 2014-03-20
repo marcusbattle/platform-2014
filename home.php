@@ -53,7 +53,7 @@
                      <img src="<?php echo get_template_directory_uri() . '/assets/img/headshots/rsz_tim.jpg' ?>">
                   </div>
                   <div class="text-center">
-                     <h3>Tim Shrop Comedy</h3>
+                     <h3>Comedian Tim Shropshire</h3>
                      <h4>Special Guest Host</h4>
                   </div>
                   <p>&nbsp;</p>
@@ -63,7 +63,7 @@
                      <div class="thumb pull-left" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/headshots/becca.jpg' ?>); margin-right: 10px;"></div>
                      <div class="pull-left" style="margin-top: 20px;">
                         <h3>Becca June</h3>
-                        <h4>Special Recording Artist</h4>
+                        <h4>Special Guest Recording Artist</h4>
                      </div>
                   </div>
                   <p>&nbsp;</p>
@@ -71,7 +71,7 @@
                      <div class="thumb pull-left" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/headshots/wil.jpg' ?>); margin-right: 10px;"></div>
                      <div class="pull-left" style="margin-top: 20px;">
                         <h3>Wil E. Coleman</h3>
-                        <h4>Special Recording Artist</h4>
+                        <h4>Special Guest Recording Artist</h4>
                      </div>
                   </div>
                </div>
@@ -175,7 +175,7 @@
                <h5>Singer</h5>
             </div>
             <div class="col-md-4 text-center">
-               <div class="thumb" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/headshots/brandon-green.jpg' ?>);"></div>
+               <div class="thumb" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/headshots/rsz_brandon-green.jpg' ?>);"></div>
                <h4>Brandon Green</h4>
                <h5>Singer</h5>
             </div>
