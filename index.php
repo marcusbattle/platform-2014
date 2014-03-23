@@ -17,7 +17,7 @@
    </head>
    <body>
 
-      <?php global $post; echo wpautop($post->post_content); ?>
+      <?php global $post; echo do_shortcode( wpautop($post->post_content) ); ?>
 
       <?php wp_footer(); ?>
    </body>
